@@ -156,6 +156,7 @@
 		58162C751D83EC7100E7A17C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				58162EAF1D87B8E200E7A17C /* ThirdTool */,
 				58162C871D83F5DB00E7A17C /* Headers */,
 				58162C761D83EC7100E7A17C /* CLTNetwork */,
 				58162C7D1D83EC7100E7A17C /* ExceptionTool */,
@@ -179,8 +180,6 @@
 		58162C7D1D83EC7100E7A17C /* ExceptionTool */ = {
 			isa = PBXGroup;
 			children = (
-				58162DA01D86C24300E7A17C /* PinYinForObjc.h */,
-				58162DA11D86C24300E7A17C /* PinYinForObjc.m */,
 				58162D9D1D86C17400E7A17C /* ChineseInclude.h */,
 				58162D9E1D86C17400E7A17C /* ChineseInclude.m */,
 				58162C7E1D83EC7100E7A17C /* CLTUncaughtExceptionHandler.h */,
@@ -253,6 +252,22 @@
 			path = BaseClasses;
 			sourceTree = "<group>";
 		};
+		58162EAF1D87B8E200E7A17C /* ThirdTool */ = {
+			isa = PBXGroup;
+			children = (
+				58162DA01D86C24300E7A17C /* PinYinForObjc.h */,
+				58162DA11D86C24300E7A17C /* PinYinForObjc.m */,
+			);
+			path = ThirdTool;
+			sourceTree = "<group>";
+		};
+		58162EB01D87B9B100E7A17C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		582A16361D82C76400F7CF54 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +293,7 @@
 		582A16411D82C76400F7CF54 /* 会议室系统 */ = {
 			isa = PBXGroup;
 			children = (
+				58162EB01D87B9B100E7A17C /* Image */,
 				58162CD91D83FB1200E7A17C /* BaseClasses */,
 				58162CB41D83FA1900E7A17C /* Categary */,
 				58162C751D83EC7100E7A17C /* Utils */,
