@@ -34,6 +34,9 @@ PODS:
   - MJRefresh (3.0.8)
   - PinYin4Objc (1.1.1)
   - Reachability (3.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
@@ -44,6 +47,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.0.4)
   - PinYin4Objc (~> 1.1.1)
   - Reachability (~> 3.2)
+  - SDWebImage (~> 3.7.3)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -54,5 +58,6 @@ SPEC CHECKSUMS:
   MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
   PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
 COCOAPODS: 0.39.0
